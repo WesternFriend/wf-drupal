@@ -1,0 +1,12 @@
+name = Typography
+description = Typeface settings and CSS assignments.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = typography
+features[features_api][] = api:2
+features[fontyourface][] = EB Garamond regular (latin)
+features[fontyourface][] = Ultra regular (latin)
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][fontyourface] = fontyourface
+features_exclude[dependencies][google_fonts_api] = google_fonts_api

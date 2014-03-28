@@ -1,0 +1,11 @@
+name = Pages - Welcome
+description = Welcome visitors to the site.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = pages_welcome
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:2
+features[page_manager_pages][] = welcome
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][page_manager] = page_manager

@@ -1,0 +1,7 @@
+name = Pages - Community
+description = Showcase community information, meetings, worship groups, events, etc.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = pages_community
+features[features_api][] = api:2

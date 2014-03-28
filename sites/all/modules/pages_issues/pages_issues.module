@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pages - Issues feature.
+ */
+
+include_once 'pages_issues.features.inc';

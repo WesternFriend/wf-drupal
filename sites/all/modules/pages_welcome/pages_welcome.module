@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pages - Welcome feature.
+ */
+
+include_once 'pages_welcome.features.inc';

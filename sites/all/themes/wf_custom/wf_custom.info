@@ -1,0 +1,6 @@
+name = WF Custom 
+description = Custom theme for Western Friend, based on Bootstrap Business theme.
+core = 7.x
+base theme = bootstrap_business
+stylesheets[all][] = wf_custom.css
+

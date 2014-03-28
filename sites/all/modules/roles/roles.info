@@ -1,0 +1,11 @@
+name = Roles
+description = Roles for the Western Friend users.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = roles
+features[features_api][] = api:2
+features[user_role][] = contributor
+features[user_role][] = editor
+features[user_role][] = subscriber
+features_exclude[dependencies][features] = features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Magazine Issue - display feature.
+ */
+
+include_once 'magazine_issue_display.features.inc';

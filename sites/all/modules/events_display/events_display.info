@@ -1,0 +1,10 @@
+name = Events - display
+description = Display events, calendar, grid, etc.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = events_display
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = events
+features_exclude[dependencies][views] = views

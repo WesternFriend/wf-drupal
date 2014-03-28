@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Meeting/Worship Group - create feature.
+ */
+
+include_once 'meeting_worship_group_create.features.inc';

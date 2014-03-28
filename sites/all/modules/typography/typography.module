@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Typography feature.
+ */
+
+include_once 'typography.features.inc';

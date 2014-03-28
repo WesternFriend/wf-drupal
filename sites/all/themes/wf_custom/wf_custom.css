@@ -1,0 +1,19 @@
+#logo
+{
+  float: left;
+
+}
+
+#site-name
+{
+  float: left;
+  margin: 1em 0 0 1em;
+}
+#header
+{
+  padding-bottom: 1em;
+}
+.main-menu a
+{
+  padding: 1em; 
+}

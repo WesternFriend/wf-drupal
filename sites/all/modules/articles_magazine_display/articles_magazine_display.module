@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Articles (Magazine) - Display feature.
+ */
+
+include_once 'articles_magazine_display.features.inc';

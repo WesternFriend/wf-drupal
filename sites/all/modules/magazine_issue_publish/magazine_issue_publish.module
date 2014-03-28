@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Magazine Issue - publish feature.
+ */
+
+include_once 'magazine_issue_publish.features.inc';
