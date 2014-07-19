@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WF Page - Front feature.
+ */
+
+include_once 'wf_page_front.features.inc';

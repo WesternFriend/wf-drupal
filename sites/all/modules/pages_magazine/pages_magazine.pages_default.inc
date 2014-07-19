@@ -50,135 +50,134 @@ function pages_magazine_default_page_manager_pages() {
     'css' => '',
     'contexts' => array(),
     'relationships' => array(),
+    'panels_breadcrumbs_state' => 1,
+    'panels_breadcrumbs_titles' => 'Magazine',
+    'panels_breadcrumbs_paths' => '<none>',
+    'panels_breadcrumbs_home' => 1,
   );
   $display = new panels_display();
-  $display->layout = 'bootstrap_threecol_stacked';
+  $display->layout = 'bootstrap_twocol_stacked';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
-      'default' => NULL,
+      'default' => array(),
       'top' => array(
-        'column_type' => 'col-lg',
+        'column_type' => 'col',
         'column_size' => '12',
-        'offset_type' => 'col-lg-offset',
+        'offset_type' => 'col-offset',
         'offset_size' => '0',
       ),
-      'left' => array(
-        'column_type' => 'col-lg',
-        'column_size' => '3',
-        'offset_type' => 'col-lg-offset',
-        'offset_size' => '0',
-      ),
+      'bottom' => array(),
       'middle' => array(
-        'column_type' => 'col-lg',
-        'column_size' => '3',
+        'column_type' => 'col-sm',
+        'column_size' => '4',
         'offset_type' => 'col-lg-offset',
         'offset_size' => '0',
       ),
-      'right' => array(
-        'column_type' => 'col-lg',
-        'column_size' => '3',
-        'offset_type' => 'col-lg-offset',
-        'offset_size' => '0',
-      ),
-      'bottom' => NULL,
+      'left' => NULL,
+      'right' => NULL,
     ),
     'top' => array(
       'style' => 'bootstrap_region',
     ),
     'left' => array(
-      'style' => 'bootstrap_region',
+      'style' => 'default',
     ),
     'middle' => array(
       'style' => 'bootstrap_region',
     ),
     'right' => array(
+      'style' => 'default',
+    ),
+    'style' => 'bootstrap_region',
+    'bottom' => array(
       'style' => 'bootstrap_region',
     ),
   );
   $display->cache = array();
   $display->title = 'Magazine';
+  $display->uuid = 'a3d30ba4-fad8-4b22-835c-55c07471c097';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-1';
+    $pane->pid = 'new-75a61219-0733-4e84-873b-93024c710b2d';
     $pane->panel = 'left';
-    $pane->type = 'views';
-    $pane->subtype = 'issues';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_pager_settings' => 0,
-      'use_pager' => 0,
-      'nodes_per_page' => '1',
-      'pager_id' => '0',
-      'offset' => '0',
-      'more_link' => 0,
-      'feed_icons' => 1,
-      'panel_args' => 0,
-      'link_to_view' => 0,
-      'args' => '',
-      'url' => '',
-      'display' => 'block_1',
-      'override_title' => 0,
-      'override_title_text' => 'Latest Issue',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'style' => 'default',
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['left'][0] = 'new-1';
-    $pane = new stdClass();
-    $pane->pid = 'new-2';
-    $pane->panel = 'middle';
-    $pane->type = 'views';
-    $pane->subtype = 'issues';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_pager_settings' => 0,
-      'use_pager' => 0,
-      'nodes_per_page' => '1',
-      'pager_id' => '0',
-      'offset' => '0',
-      'more_link' => 0,
-      'feed_icons' => 0,
-      'panel_args' => 0,
-      'link_to_view' => 0,
-      'args' => '',
-      'url' => '',
-      'display' => 'block_2',
-      'override_title' => 1,
-      'override_title_text' => 'Current issue, contents',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-2'] = $pane;
-    $display->panels['middle'][0] = 'new-2';
-    $pane = new stdClass();
-    $pane->pid = 'new-3';
-    $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => 'Letters to the editor.',
+      'admin_title' => '',
       'title' => '',
-      'body' => '<button type="button" class="btn btn-info">Submit your comments and letters to the editor.</button>',
+      'body' => '',
+      'format' => 'basic',
+      'substitute' => TRUE,
+      'name' => 'reader_forum',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => array(),
+      'style' => 'bootstrap_region',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '75a61219-0733-4e84-873b-93024c710b2d';
+    $display->content['new-75a61219-0733-4e84-873b-93024c710b2d'] = $pane;
+    $display->panels['left'][0] = 'new-75a61219-0733-4e84-873b-93024c710b2d';
+    $pane = new stdClass();
+    $pane->pid = 'new-ba4da42a-e834-4d23-9258-cef8765a02b6';
+    $pane->panel = 'right';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Advertise',
+      'title' => '',
+      'body' => '<a href="/advertise" title="advertise"><button type="button" class="btn btn-info btn-lg">Advertise in <em>Western Friend</em>.</button></a>',
       'format' => 'full_html',
+      'substitute' => TRUE,
+      'name' => 'advertise',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => array(),
+      'style' => 'bootstrap_region',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'ba4da42a-e834-4d23-9258-cef8765a02b6';
+    $display->content['new-ba4da42a-e834-4d23-9258-cef8765a02b6'] = $pane;
+    $display->panels['right'][0] = 'new-ba4da42a-e834-4d23-9258-cef8765a02b6';
+    $pane = new stdClass();
+    $pane->pid = 'new-68ea043a-1600-42f6-abbc-bf0aef48ad7c';
+    $pane->panel = 'top';
+    $pane->type = 'custom';
+    $pane->subtype = 'subscribe_now';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'role',
+          'settings' => array(
+            'rids' => array(
+              0 => 4,
+            ),
+          ),
+          'context' => 'logged-in-user',
+          'not' => TRUE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => '',
+      'format' => 'basic',
       'substitute' => TRUE,
     );
     $pane->cache = array();
@@ -203,160 +202,51 @@ function pages_magazine_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['middle'][1] = 'new-3';
-    $pane = new stdClass();
-    $pane->pid = 'new-4';
-    $pane->panel = 'middle';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => 'Submit work.',
-      'title' => '',
-      'body' => '<button type="button" class="btn btn-success">Submit your work.</button>',
-      'format' => 'full_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => array(
-        'modifier_class' => '',
-        'collapsible' => 0,
-        'collapsed' => 0,
-        'hide_classes' => array(
-          'hidden-xs' => 0,
-          'hidden-sm' => 0,
-          'hidden-md' => 0,
-          'hidden-lg' => 0,
-        ),
-        'additional_classes' => array(
-          'pull-left' => 0,
-          'pull-right' => 0,
-          'clearfix' => 0,
-        ),
-      ),
-      'style' => 'bootstrap_styles:panel',
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 2;
-    $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['middle'][2] = 'new-4';
-    $pane = new stdClass();
-    $pane->pid = 'new-5';
-    $pane->panel = 'right';
-    $pane->type = 'block';
-    $pane->subtype = 'user-login';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => 'Subscribers sign in to read full articles.',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => array(
-        'modifier_class' => 'panel-success',
-        'collapsible' => 0,
-        'collapsed' => 0,
-        'hide_classes' => array(
-          'hidden-xs' => 0,
-          'hidden-sm' => 0,
-          'hidden-md' => 0,
-          'hidden-lg' => 0,
-        ),
-        'additional_classes' => array(
-          'pull-left' => 0,
-          'pull-right' => 0,
-          'clearfix' => 0,
-        ),
-      ),
-      'style' => 'bootstrap_styles:panel',
-    );
-    $pane->css = array();
-    $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-5'] = $pane;
-    $display->panels['right'][0] = 'new-5';
+    $pane->uuid = '68ea043a-1600-42f6-abbc-bf0aef48ad7c';
+    $display->content['new-68ea043a-1600-42f6-abbc-bf0aef48ad7c'] = $pane;
+    $display->panels['top'][0] = 'new-68ea043a-1600-42f6-abbc-bf0aef48ad7c';
     $pane = new stdClass();
-    $pane->pid = 'new-6';
-    $pane->panel = 'right';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = TRUE;
-    $pane->access = array(
-      'plugins' => array(
-        0 => array(
-          'name' => 'role',
-          'settings' => array(
-            'rids' => array(
-              0 => 1,
-              1 => 2,
-              2 => 3,
-            ),
-          ),
-          'context' => 'logged-in-user',
-          'not' => FALSE,
-        ),
-      ),
-    );
-    $pane->configuration = array(
-      'admin_title' => 'Subscribe',
-      'title' => '',
-      'body' => '<button type="button" class="btn btn-success btn-lg">Subscribe.</button>',
-      'format' => 'full_html',
-      'substitute' => TRUE,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => array(
-        'modifier_class' => 'panel-success',
-        'collapsible' => 0,
-        'collapsed' => 0,
-        'hide_classes' => array(
-          'hidden-xs' => 0,
-          'hidden-sm' => 0,
-          'hidden-md' => 0,
-          'hidden-lg' => 0,
-        ),
-        'additional_classes' => array(
-          'pull-left' => 0,
-          'pull-right' => 0,
-          'clearfix' => 0,
-        ),
-      ),
-      'style' => 'bootstrap_styles:panel',
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $display->content['new-6'] = $pane;
-    $display->panels['right'][1] = 'new-6';
-    $pane = new stdClass();
-    $pane->pid = 'new-7';
-    $pane->panel = 'right';
+    $pane->pid = 'new-1ba60d8b-ab0d-407a-abdc-52a3b1df39f5';
+    $pane->panel = 'top';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => 'Advertise',
-      'title' => '',
-      'body' => '<a href="/advertise" title="advertise"><button type="button" class="btn btn-info btn-lg">Advertise in <em>Western Friend</em>.</button></a>',
-      'format' => 'full_html',
+      'admin_title' => '',
+      'title' => 'Current Issues of the Magazine',
+      'body' => '<p>Subscribers have full access to all articles in <em>Western Friend.</em> Limited access to current issues is available to non-subscribers.</p>
+',
+      'format' => 'advanced',
       'substitute' => TRUE,
+      'name' => 'access_current_issues',
     );
     $pane->cache = array();
     $pane->style = array(
+      'settings' => array(),
+      'style' => 'bootstrap_region',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = '1ba60d8b-ab0d-407a-abdc-52a3b1df39f5';
+    $display->content['new-1ba60d8b-ab0d-407a-abdc-52a3b1df39f5'] = $pane;
+    $display->panels['top'][1] = 'new-1ba60d8b-ab0d-407a-abdc-52a3b1df39f5';
+    $pane = new stdClass();
+    $pane->pid = 'new-a44173d3-2f04-4774-9e34-a8e86dba0125';
+    $pane->panel = 'top';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'issues-panel_pane_1';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
       'settings' => array(
-        'modifier_class' => '',
+        'modifier_class' => 'panel-primary',
         'collapsible' => 0,
         'collapsed' => 0,
         'hide_classes' => array(
@@ -377,10 +267,107 @@ function pages_magazine_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-7'] = $pane;
-    $display->panels['right'][2] = 'new-7';
+    $pane->uuid = 'a44173d3-2f04-4774-9e34-a8e86dba0125';
+    $display->content['new-a44173d3-2f04-4774-9e34-a8e86dba0125'] = $pane;
+    $display->panels['top'][2] = 'new-a44173d3-2f04-4774-9e34-a8e86dba0125';
+    $pane = new stdClass();
+    $pane->pid = 'new-dfdee63e-0792-4de8-b5c3-0d4b82a68d91';
+    $pane->panel = 'top';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => 'Archived Issues of the Magazine',
+      'body' => '<p>All readers have full access to all articles of <em>Western Friend</em> that become available in our new online archive - Going back to 1929!</p>
+',
+      'format' => 'advanced',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $pane->uuid = 'dfdee63e-0792-4de8-b5c3-0d4b82a68d91';
+    $display->content['new-dfdee63e-0792-4de8-b5c3-0d4b82a68d91'] = $pane;
+    $display->panels['top'][3] = 'new-dfdee63e-0792-4de8-b5c3-0d4b82a68d91';
+    $pane = new stdClass();
+    $pane->pid = 'new-15f704c5-9e1f-492b-b8ba-35befd7b0c64';
+    $pane->panel = 'top';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'issues-panel_pane_2';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => array(
+        'modifier_class' => 'panel-primary',
+        'collapsible' => 0,
+        'collapsed' => 0,
+        'hide_classes' => array(
+          'hidden-xs' => 0,
+          'hidden-sm' => 0,
+          'hidden-md' => 0,
+          'hidden-lg' => 0,
+        ),
+        'additional_classes' => array(
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+        ),
+      ),
+      'style' => 'bootstrap_styles:panel',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 4;
+    $pane->locks = array();
+    $pane->uuid = '15f704c5-9e1f-492b-b8ba-35befd7b0c64';
+    $display->content['new-15f704c5-9e1f-492b-b8ba-35befd7b0c64'] = $pane;
+    $display->panels['top'][4] = 'new-15f704c5-9e1f-492b-b8ba-35befd7b0c64';
+    $pane = new stdClass();
+    $pane->pid = 'new-ff1f7d73-a147-4655-ab32-2aded88fd184';
+    $pane->panel = 'top';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Magazine Description',
+      'title' => '',
+      'body' => '<h2>Future Issues of the Magazine</h2>
+<p>Authors, poets, photographers, and artists in the West: Do you have something to contribute to the themes we plan to consider?</p>
+
+<h2>Albums of <em>Western Friend</em> Media</h2>
+
+<p><span style="background-color:transparent; color:rgb(0, 0, 0); font-family:garamond; font-size:19px">Lots of photos of Friends in the West, plus audio recordings, and lots more to come.</span></p>
+',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'style' => 'bootstrap_region',
+      'settings' => array(),
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => '.col-lg-10',
+    );
+    $pane->extras = array();
+    $pane->position = 5;
+    $pane->locks = array();
+    $pane->uuid = 'ff1f7d73-a147-4655-ab32-2aded88fd184';
+    $display->content['new-ff1f7d73-a147-4655-ab32-2aded88fd184'] = $pane;
+    $display->panels['top'][5] = 'new-ff1f7d73-a147-4655-ab32-2aded88fd184';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-1';
+  $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['magazine'] = $page;

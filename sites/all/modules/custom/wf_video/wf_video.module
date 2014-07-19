@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WF Video feature.
+ */
+
+include_once 'wf_video.features.inc';

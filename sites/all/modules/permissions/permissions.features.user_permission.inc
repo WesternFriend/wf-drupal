@@ -21,22 +21,12 @@ function permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'create article_online_ content'.
-  $permissions['create article_online_ content'] = array(
-    'name' => 'create article_online_ content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'contributor' => 'contributor',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'create event content'.
   $permissions['create event content'] = array(
     'name' => 'create event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -46,6 +36,7 @@ function permissions_user_default_permissions() {
     'name' => 'create forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -65,6 +56,7 @@ function permissions_user_default_permissions() {
     'name' => 'create magazine_issue content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -74,6 +66,7 @@ function permissions_user_default_permissions() {
     'name' => 'create media content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -81,15 +74,6 @@ function permissions_user_default_permissions() {
   // Exported permission: 'create page content'.
   $permissions['create page content'] = array(
     'name' => 'create page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'create quaker_organizations content'.
-  $permissions['create quaker_organizations content'] = array(
-    'name' => 'create quaker_organizations content',
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
@@ -107,21 +91,12 @@ function permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'delete any article_online_ content'.
-  $permissions['delete any article_online_ content'] = array(
-    'name' => 'delete any article_online_ content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'delete any event content'.
   $permissions['delete any event content'] = array(
     'name' => 'delete any event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -131,6 +106,7 @@ function permissions_user_default_permissions() {
     'name' => 'delete any forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -150,6 +126,7 @@ function permissions_user_default_permissions() {
     'name' => 'delete any magazine_issue content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -159,6 +136,7 @@ function permissions_user_default_permissions() {
     'name' => 'delete any media content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -166,15 +144,6 @@ function permissions_user_default_permissions() {
   // Exported permission: 'delete any page content'.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete any quaker_organizations content'.
-  $permissions['delete any quaker_organizations content'] = array(
-    'name' => 'delete any quaker_organizations content',
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
@@ -192,21 +161,12 @@ function permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'delete own article_online_ content'.
-  $permissions['delete own article_online_ content'] = array(
-    'name' => 'delete own article_online_ content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'delete own event content'.
   $permissions['delete own event content'] = array(
     'name' => 'delete own event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -216,6 +176,7 @@ function permissions_user_default_permissions() {
     'name' => 'delete own forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -235,6 +196,7 @@ function permissions_user_default_permissions() {
     'name' => 'delete own magazine_issue content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -244,6 +206,7 @@ function permissions_user_default_permissions() {
     'name' => 'delete own media content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -251,15 +214,6 @@ function permissions_user_default_permissions() {
   // Exported permission: 'delete own page content'.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own quaker_organizations content'.
-  $permissions['delete own quaker_organizations content'] = array(
-    'name' => 'delete own quaker_organizations content',
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
@@ -277,21 +231,12 @@ function permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit any article_online_ content'.
-  $permissions['edit any article_online_ content'] = array(
-    'name' => 'edit any article_online_ content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit any event content'.
   $permissions['edit any event content'] = array(
     'name' => 'edit any event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -301,6 +246,7 @@ function permissions_user_default_permissions() {
     'name' => 'edit any forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -320,6 +266,7 @@ function permissions_user_default_permissions() {
     'name' => 'edit any magazine_issue content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -329,6 +276,7 @@ function permissions_user_default_permissions() {
     'name' => 'edit any media content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -336,15 +284,6 @@ function permissions_user_default_permissions() {
   // Exported permission: 'edit any page content'.
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit any quaker_organizations content'.
-  $permissions['edit any quaker_organizations content'] = array(
-    'name' => 'edit any quaker_organizations content',
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
@@ -363,22 +302,12 @@ function permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit own article_online_ content'.
-  $permissions['edit own article_online_ content'] = array(
-    'name' => 'edit own article_online_ content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'contributor' => 'contributor',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit own event content'.
   $permissions['edit own event content'] = array(
     'name' => 'edit own event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -388,6 +317,7 @@ function permissions_user_default_permissions() {
     'name' => 'edit own forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -407,6 +337,7 @@ function permissions_user_default_permissions() {
     'name' => 'edit own magazine_issue content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -416,6 +347,7 @@ function permissions_user_default_permissions() {
     'name' => 'edit own media content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -423,15 +355,6 @@ function permissions_user_default_permissions() {
   // Exported permission: 'edit own page content'.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own quaker_organizations content'.
-  $permissions['edit own quaker_organizations content'] = array(
-    'name' => 'edit own quaker_organizations content',
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',

@@ -1,0 +1,15 @@
+name = WF Page - Front
+description = Front page for website.
+core = 7.x
+package = Western Friend
+version = 7.x-0.1
+project = wf_page_front
+dependencies[] = ctools
+dependencies[] = ctools_custom_content
+dependencies[] = page_manager
+dependencies[] = pages_welcome
+features[ctools][] = ctools_custom_content:ctools_content:1
+features[ctools][] = page_manager:pages_default:1
+features[ctools_custom_content][] = subscribe_now
+features[features_api][] = api:2
+project path = sites/all/modules/custom
